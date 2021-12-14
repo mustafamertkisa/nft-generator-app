@@ -1,0 +1,58 @@
+body{
+    width: 1000px;
+    height: auto;
+}
+
+.formItem {
+    width: 500px;
+}
+
+.badge-info {
+    background-color: blueviolet;
+}
+
+.badge-success {
+    background-color: green;
+}
+
+.bg-red {
+    background-color: #dc3545;
+    color: white;
+}
+
+#navbarLogo {
+    color: #2f6ab2;
+    font-size: large;
+    font-weight: 640;
+}
+
+#showNftInfo {
+    width: 500px;
+}
+
+#showAccount {
+    color: darkolivegreen;
+}
+
+/**
+ * Typing animation with pure CSS. 
+ * Works best in browsers supporting the ch unit.
+ */
+
+ @keyframes typing { from { width: 0; } }
+ @keyframes blink-caret { 50% { border-color: transparent; } }
+ 
+ h1 { 
+   color:white;
+     font: bold 111% Consolas, Monaco, monospace;
+     font-size: x-large;
+     border-right: .1em solid;
+     width: 250em;
+     width: 42ch; /* Ne kadar yazı yazacaksanız karakter sayacında sayıp buraya karakter sayısı kadar yazın. */
+     margin: 2em 3em;
+     white-space: nowrap;
+     overflow: hidden;
+     animation: typing 6s steps(42, end), /* # Adımlar = # Karakter Sayısı */
+                blink-caret 0.5s step-end infinite alternate;
+ }
+    
